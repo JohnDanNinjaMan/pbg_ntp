@@ -7,7 +7,7 @@ class pbg_ntp {
 
   # Ensures config is correct before service can run
   file { '/etc/ntp.conf':
-    source  => 'puppet://modules/pbg_ntp/ntp.conf',
+    source  => 'puppet:///modules/pbg_ntp/ntp.conf',
     notify  => Service['ntp'],
     require => Package['ntp'],
   }
