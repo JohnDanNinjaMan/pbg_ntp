@@ -1,0 +1,18 @@
+{
+	"name": "pbg_ntp",
+	"version": "0.1.1",
+	"author": "JohnDanNinjaMan",
+	"summary": "Test module for ntp. Copied from example",
+	"license": "Apache-2.0",
+	"source": "git@github.com:JohnDanNinjaMan/pbg_ntp.git",
+	"project_page": "https://github.com/JohnDanNinjaMan/pbg_ntp",
+	"tags": ["ntp"],
+	"dependencies": [
+		{"name": "puppetlabs/stdlibs",
+		 "version_requirement":">= 4.17.0 < 5.0.0"}
+	],
+	"operatingsystem_support": [{
+		"operatingsystem": "Ubuntu",
+		"operatingsystemrelease": [ "16.04" ]
+	}]
+}
