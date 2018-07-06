@@ -3,7 +3,7 @@
 
 class pbg_ntp {
   # Install the ntp package 
-  ensure_packages(['ntp']
+  ensure_packages(['ntp'])
 
   # Ensures config is correct before service can run
   file { '/etc/ntp.conf':
